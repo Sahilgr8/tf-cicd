@@ -22,15 +22,21 @@
 #   labels = var.labels
 # }
 
-module "gcs" {
-  source = "../../modules/gcs"
-  bucket_names = var.bucket_names
-  zonaconsumo_folders = var.zonaconsumo_folders
-  zonasemicruda_folders = var.zonasemicruda_folders
-  zonaresultados_folders = var.zonaresultados_folders
-  zonacurada_folders = var.zonacurada_folders
-  project_id = "spring-gift-345910"
-  location = var.region
-  labels = var.labels
-}
+# module "gcs" {
+#   source = "../../modules/gcs"
+#   bucket_names = var.bucket_names
+#   zonaconsumo_folders = var.zonaconsumo_folders
+#   zonasemicruda_folders = var.zonasemicruda_folders
+#   zonaresultados_folders = var.zonaresultados_folders
+#   zonacurada_folders = var.zonacurada_folders
+#   project_id = "logging-demo-345910"
+#   location = var.region
+#   labels = var.labels
+# }
 
+module "compute_instance" {
+  source="../../modules/compute_instance"
+  name="test-vm"
+  zone = var.zone
+  machine_type="e2-medium"
+}
