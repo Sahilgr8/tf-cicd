@@ -36,7 +36,7 @@
 
 module "compute_instance" {
   source="../../modules/compute_instance"
-  name="test-vm"
+  name="test"
   zone = var.zone
   machine_type="e2-medium"
 }
