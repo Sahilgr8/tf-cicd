@@ -81,7 +81,7 @@ variable "zonasemicruda_folders" {
 			"DATOS_EXTERNOS/",
 			"REFERENCIALES/",
 			"CLIENTES/",
-			"PASIV/",
+			"PASI/",
 			"CUR_PASIVO/",
 			"SEGUROS/",
 			"CORREDORES/",
