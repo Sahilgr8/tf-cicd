@@ -158,7 +158,7 @@ variable "zonaresultados_folders" {
 			"RES_RAPPI/",
 			"RES_RIESGO_TRANSACCIONAL/",
 			"RES_TRAZABILIDAD/",
-			"RES_INTERCAMBIO/"]
+			"RES_INTERCAMBI/"]
 }
 
 variable "bucket_names" {
