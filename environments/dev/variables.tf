@@ -118,7 +118,7 @@ variable "zonaresultados_folders" {
 			"RES_OPERACIONES_CANALES/",
 			"RES_RAPPI/",
 			"RES_RIESGO_TRANSACCIONAL/",
-			"RES_TRAZABILIDAD/",
+			"RES_TRAZABILIDA/",
 			"RES_INTERCAMBI/"]
 }
 
