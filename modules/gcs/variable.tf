@@ -155,7 +155,7 @@ variable "zonaresultados_folders" {
 			"RES_CONTROLES_Y_METRICAS/",
 			"RES_ENTES_DE_CONTROL/",
 			"RES_OPERACIONES_CANALES/",
-			"RES_RAPPI/",
+			"RES_RAPP/",
 			"RES_RIESGO_TRANSACCIONAL/",
 			"RES_TRAZABILIDAD/",
 			"RES_INTERCAMBI/"]
